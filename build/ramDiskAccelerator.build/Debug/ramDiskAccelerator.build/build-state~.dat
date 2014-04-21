@@ -1,0 +1,774 @@
+TramDiskAccelerator
+v5
+r1
+cCheck dependencies
+cPreprocess /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist Info.plist
+cProcessInfoPlistFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Info.plist /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateLeft.tif Artwork/RotateLeft.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/camera.tiff Artwork/camera.tiff
+cCopyStringsFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateRight.tif Artwork/RotateRight.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/SizeToFit.tif Artwork/SizeToFit.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomActualSize.tif Artwork/ZoomActualSize.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomOut.tif Artwork/ZoomOut.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomIn.tif Artwork/ZoomIn.tif
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/QuestionMark.tiff Artwork/QuestionMark.tiff
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/PlayOff.tif Artwork/PlayOff.tif
+cCpResource Artwork/glossy.png build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/pin.tiff Artwork/pin.tiff
+cCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/metal_background.tif Artwork/metal_background.tif
+cCpResource Icon.icns build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns
+cCpResource ramDiskAcceleratorPNG.png build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png
+cCompileXIB /Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o /Users/peter/bin/System/ramDiskAccelerator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o /Users/peter/bin/System/ramDiskAccelerator/Controller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o /Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o /Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o /Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o /Users/peter/bin/System/ramDiskAccelerator/Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator normal i386
+cTouch /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005066165700000000000001E5
+t1348867671
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005019B8480000000000006730
+t1343862856
+s26416
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000005019B8710000000000006890
+t1343862897
+s26768
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/PlayOff.tif
+c00000000484899F400000000000040C8
+t1212717556
+s16584
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/QuestionMark.tiff
+c00000000484899F40000000000002060
+t1212717556
+s8288
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/RotateLeft.tif
+c00000000484899F400000000000008E6
+t1212717556
+s2278
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/RotateRight.tif
+c00000000484899F400000000000008F4
+t1212717556
+s2292
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/SizeToFit.tif
+c00000000484899F400000000000008AC
+t1212717556
+s2220
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomActualSize.tif
+c00000000484899F400000000000043D0
+t1212717556
+s17360
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomIn.tif
+c00000000484899F400000000000009B2
+t1212717556
+s2482
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomOut.tif
+c00000000484899F400000000000009BA
+t1212717556
+s2490
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/camera.tiff
+c00000000484899F400000000000007A4
+t1212717556
+s1956
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/glossy.png
+c00000000484899F400000000000015D4
+t1212717556
+s5588
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/metal_background.tif
+c00000000484899F40000000000007444
+t1212717556
+s29764
+
+N/Users/peter/bin/System/ramDiskAccelerator/Artwork/pin.tiff
+c00000000484899F400000000000006BC
+t1212717556
+s1724
+
+N/Users/peter/bin/System/ramDiskAccelerator/Controller.m
+c000000005354F98A0000000000002F54
+t1398077834
+s12116
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m
+c0000000053455C6C0000000000003D70
+t1397054572
+s15728
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m
+c000000004A2854330000000000000AD3
+t1244156979
+s2771
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m
+c000000004A2854330000000000000EA4
+t1244156979
+s3748
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m
+c000000004A2854330000000000000FE5
+t1244156979
+s4069
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m
+c000000004A28543300000000000016FA
+t1244156979
+s5882
+
+N/Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m
+c0000000053448FAB0000000000000FAB
+t1397002155
+s4011
+
+N/Users/peter/bin/System/ramDiskAccelerator/English.lproj/InfoPlist.strings
+c0000000053457CDE00000000000000D6
+t1397062878
+s214
+
+N/Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib
+c000000005354F446000000000001FE30
+t1398076486
+s130608
+
+N/Users/peter/bin/System/ramDiskAccelerator/Icon.icns
+c000000005347A852000000000003B051
+t1397205074
+s241745
+
+N/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m
+c0000000053448D410000000000001204
+t1397001537
+s4612
+
+N/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m
+c0000000053448CAA0000000000002DC4
+t1397001386
+s11716
+
+N/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m
+c0000000053448CFB0000000000000EEC
+t1397001467
+s3820
+
+N/Users/peter/bin/System/ramDiskAccelerator/Utilities.m
+c000000004A2854330000000000000D5E
+t1244156979
+s3422
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Info.plist
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/PlayOff.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/QuestionMark.tiff
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateLeft.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateRight.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/SizeToFit.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomActualSize.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomIn.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomOut.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/camera.tiff
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/metal_background.tif
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/pin.tiff
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/RamDiskAccelerator.LinkFileList
+c000000005354F99300000000000006BD
+t1398077843
+s1725
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist
+t2
+s0
+
+N/Users/peter/bin/System/ramDiskAccelerator/main.m
+c000000004A28543300000000000009D0
+t1244156979
+s2512
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/System/ramDiskAccelerator/ramDiskAcceleratorPNG.png
+c0000000053479E41000000000002510C
+t1397202497
+s151820
+
+NInfo.plist
+c000000005347A8A30000000000000351
+t1397205155
+s849
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/Controller.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/Utilities.m
+r0
+
+CBuild AST from /Users/peter/bin/System/ramDiskAccelerator/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9818c3133105b941^3ee8dd133105b941^---0#1#0#--18"Check dependencies36"F88DC61B-701F-447A-A80A-608011DB0EA9-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o /Users/peter/bin/System/ramDiskAccelerator/Controller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394815
+e419770650.744651
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o
+x/Users/peter/bin/System/ramDiskAccelerator/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/ramDiskAccelerator/Controller.m:164:29: warning: unused variable 'mountScriptReturnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* mountScriptReturnValue = [mountScriptAS executeAndReturnError:nil];
+o                            ^
+o/Users/peter/bin/System/ramDiskAccelerator/Controller.m:152:29: warning: unused variable 'newFsReturnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* newFsReturnValue = [newFsScriptAS executeAndReturnError:nil];
+o                            ^
+o/Users/peter/bin/System/ramDiskAccelerator/Controller.m:158:29: warning: unused variable 'newFolderReturnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* newFolderReturnValue = [newFolderScriptAS executeAndReturnError:nil];
+o                            ^
+o/Users/peter/bin/System/ramDiskAccelerator/Controller.m:273:19: warning: unused variable 'returnText' [-Wunused-variable]
+o        NSString* returnText = [returnValue stringValue];
+o                  ^
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/peter/bin/System/ramDiskAccelerator/Controller.m8f3365193105b941^bda7be1a3105b941^-990"/Users/peter/bin/System/ramDiskAccelerator/Controller.m:164:29: warning: unused variable 'mountScriptReturnValue' [-Wunused-variable]    NSAppleEventDescriptor* mountScriptReturnValue = [mountScriptAS executeAndReturnError:nil];                            ^/Users/peter/bin/System/ramDiskAccelerator/Controller.m:152:29: warning: unused variable 'newFsReturnValue' [-Wunused-variable]    NSAppleEventDescriptor* newFsReturnValue = [newFsScriptAS executeAndReturnError:nil];                            ^/Users/peter/bin/System/ramDiskAccelerator/Controller.m:158:29: warning: unused variable 'newFolderReturnValue' [-Wunused-variable]    NSAppleEventDescriptor* newFolderReturnValue = [newFolderScriptAS executeAndReturnError:nil];                            ^/Users/peter/bin/System/ramDiskAccelerator/Controller.m:273:19: warning: unused variable 'returnText' [-Wunused-variable]        NSString* returnText = [returnValue stringValue];                  ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@40"Unused variable 'mountScriptReturnValue'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@71"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Controller.m0000000000000000^163#28#163#28#7054#0#19"Unused Entity Issue--2@34"Unused variable 'newFsReturnValue'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Controller.m0000000000000000^151#28#151#28#6019#0#19"Unused Entity Issue--2@38"Unused variable 'newFolderReturnValue'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Controller.m0000000000000000^157#28#157#28#6553#0#19"Unused Entity Issue--2@28"Unused variable 'returnText'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Controller.m0000000000000000^272#18#272#18#11784#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@71"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Controller.m0000000000000000^2676"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o Controller.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.dia -c /Users/peter/bin/System/ramDiskAccelerator/Controller.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Controller.o36"EDAC6990-7F39-41F9-A323-9BFB419E4DCB-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394811
+e419770650.808496
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:76:11: warning: 'runModalForTypes:' is deprecated [-Wdeprecated-declarations]
+o        int i = [panel runModalForTypes:nil];
+o                 ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:78:11: warning: 'filenames' is deprecated [-Wdeprecated-declarations]
+o                return [panel filenames];
+o                        ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here
+o- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:160:15: warning: unused variable 'returnText' [-Wunused-variable]
+o    NSString* returnText = [returnValue stringValue];
+o              ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:165:29: warning: unused variable 'openReturnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* openReturnValue = [openScriptAS executeAndReturnError:nil];
+o                            ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:342:23: warning: unused variable 'returnText' [-Wunused-variable]
+o            NSString* returnText = [returnValue stringValue];
+o                      ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:347:37: warning: unused variable 'openReturnValue' [-Wunused-variable]
+o            NSAppleEventDescriptor* openReturnValue = [openScriptAS executeAndReturnError:nil];
+o                                    ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:433:37: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]
+o    return (r.length>0 && r.location>=0);
+o                          ~~~~~~~~~~^ ~
+o7 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m723265193105b941^0dface1a3105b941^-1876"/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:76:11: warning: 'runModalForTypes:' is deprecated [-Wdeprecated-declarations]        int i = [panel runModalForTypes:nil];                 ^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:78:11: warning: 'filenames' is deprecated [-Wdeprecated-declarations]                return [panel filenames];                        ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:43:1: note: method 'filenames' declared here- (NSArray *)filenames NS_DEPRECATED_MAC(10_0, 10_6);^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:160:15: warning: unused variable 'returnText' [-Wunused-variable]    NSString* returnText = [returnValue stringValue];              ^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:165:29: warning: unused variable 'openReturnValue' [-Wunused-variable]    NSAppleEventDescriptor* openReturnValue = [openScriptAS executeAndReturnError:nil];                            ^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:342:23: warning: unused variable 'returnText' [-Wunused-variable]            NSString* returnText = [returnValue stringValue];                      ^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:347:37: warning: unused variable 'openReturnValue' [-Wunused-variable]            NSAppleEventDescriptor* openReturnValue = [openScriptAS executeAndReturnError:nil];                                    ^/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m:433:37: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]    return (r.length>0 && r.location>=0);                          ~~~~~~~~~~^ ~7 warnings generated.7(36%IDEClangDiagnosticActivityLogMessage2@33"'runModalForTypes:' is deprecated-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^75#10#75#10#3412#0#12"Deprecations--2@25"'filenames' is deprecated-419770650#18446744073709551615#0#1(2@32"Method 'filenames' declared here-419770650#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@179"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h0000000000000000^42#0#42#0#789#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^77#10#77#10#3473#0#12"Deprecations--2@28"Unused variable 'returnText'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^159#14#159#14#5118#0#19"Unused Entity Issue--2@33"Unused variable 'openReturnValue'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^164#28#164#28#5505#0#19"Unused Entity Issue--2@28"Unused variable 'returnText'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^341#22#341#22#10981#0#19"Unused Entity Issue--2@33"Unused variable 'openReturnValue'-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^346#36#346#36#11412#0#19"Unused Entity Issue--2@53"Comparison of unsigned expression >= 0 is always true-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^432#36#432#36#13906#0#14"Semantic Issue2(3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^432#26#432#36#13896#2#3@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^432#38#432#39#13908#0#-0#0#0#-19%DVTDocumentLocation4@79"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m0000000000000000^2724"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o ControllerBrowsing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerBrowsing.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerBrowsing.o36"B7F709D6-05FA-408A-B191-2E38BA1E32B2-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394839
+e419770650.744721
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m263465193105b941^3baabe1a3105b941^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m0000000000000000^2718"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o ControllerEditing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerEditing.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerEditing.o36"44CD1E25-D5E9-457F-89CF-430C46DCB50A-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o /Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394817
+e419770650.757210
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m2b3365193105b941^1cd1c11a3105b941^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m0000000000000000^2730"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o ControllerImporting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerImporting.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerImporting.o36"A239E7ED-81CD-4071-8A3D-7FD8FB3C6559-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o /Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.395150
+e419770650.757009
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.md54265193105b941^60cdc11a3105b941^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m0000000000000000^2736"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o ControllerPresenting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerPresenting.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerPresenting.o36"4F42A248-5F22-482A-9014-DA64BA1C638A-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o /Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394844
+e419770650.733772
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:116:33: warning: 'filename' is deprecated [-Wdeprecated-declarations]
+o        [self saveImageToPath: [sheet filename]];
+o                                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:278:1: note: method 'filename' declared here
+o- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:130:18: warning: implicit declaration of function 'CGImageSourceGetTypeWithURL' is invalid in C99 [-Wimplicit-function-declaration]
+o    utType = (id)CGImageSourceGetTypeWithURL((CFURLRef)[self selectedImageURL], NULL);
+o                 ^
+o/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:142:10: warning: 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' is deprecated [-Wdeprecated-declarations]
+o        [savePanel beginSheetForDirectory: NULL
+o         ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:292:1: note: method 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' declared here
+o- (void)beginSheetForDirectory:(NSString *)path file:(NSString *)name modalForWindow:(NSWindow *)docWindow modalDelegate:(id)delegate didEndSelector:(SEL)didEndSelector contextInfo:(void *)contextInfo NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m3e3e65193105b941^aed8bb1a3105b941^-1589"/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:116:33: warning: 'filename' is deprecated [-Wdeprecated-declarations]        [self saveImageToPath: [sheet filename]];                                ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:278:1: note: method 'filename' declared here- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);^/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:130:18: warning: implicit declaration of function 'CGImageSourceGetTypeWithURL' is invalid in C99 [-Wimplicit-function-declaration]    utType = (id)CGImageSourceGetTypeWithURL((CFURLRef)[self selectedImageURL], NULL);                 ^/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m:142:10: warning: 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' is deprecated [-Wdeprecated-declarations]        [savePanel beginSheetForDirectory: NULL         ^/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:292:1: note: method 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' declared here- (void)beginSheetForDirectory:(NSString *)path file:(NSString *)name modalForWindow:(NSWindow *)docWindow modalDelegate:(id)delegate didEndSelector:(SEL)didEndSelector contextInfo:(void *)contextInfo NS_DEPRECATED_MAC(10_0, 10_6);^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@24"'filename' is deprecated-419770650#18446744073709551615#0#1(2@31"Method 'filename' declared here-419770650#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@179"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^277#0#277#0#14094#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m0000000000000000^115#32#115#32#4692#0#12"Deprecations--2@80"Implicit declaration of function 'CGImageSourceGetTypeWithURL' is invalid in C99-419770650#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m0000000000000000^129#17#129#17#5056#0#14"Semantic Issue--2@100"'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' is deprecated-419770650#18446744073709551615#0#1(2@107"Method 'beginSheetForDirectory:file:modalForWindow:modalDelegate:didEndSelector:contextInfo:' declared here-419770650#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@179"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^291#0#291#0#14918#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m0000000000000000^141#9#141#9#5522#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m0000000000000000^2712"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o ControllerSaving.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerSaving.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerSaving.o36"79D0380A-8455-423D-8D9E-F8826C0EB149-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o /Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394835
+e419770650.728671
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o
+x/Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m763565193105b941^8b8cba1a3105b941^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m0000000000000000^2718"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o ControllerViewing.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.dia -c /Users/peter/bin/System/ramDiskAccelerator/ControllerViewing.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ControllerViewing.o36"0BDCF909-1FA6-4684-853F-1737F5C35228-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770650.727367
+e419770651.331083
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o
+x/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m2a55ba1a3105b941^e5ef561b3105b941^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m0000000000000000^2778"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o ImageBrowserBackgroundLayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.dia -c /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserBackgroundLayer.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserBackgroundLayer.o36"80961BD1-3CE9-43CB-89D2-D50EFC3BE2D7-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770650.729854
+e419770651.331526
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o
+x/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m4df7ba1a3105b941^35f1561b3105b941^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m0000000000000000^2712"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o ImageBrowserCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.dia -c /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserCell.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserCell.o36"1D986A31-7D63-4817-B315-BB09375F8D74-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770650.757029
+e419770651.292558
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o
+x/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.mc4ecc11a3105b941^95ee561b3105b941^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m0000000000000000^2712"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o ImageBrowserView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.dia -c /Users/peter/bin/System/ramDiskAccelerator/ImageBrowserView.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/ImageBrowserView.o36"FD06D576-342A-451E-B7E0-3A940FF7A416-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o /Users/peter/bin/System/ramDiskAccelerator/Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770650.735382
+e419770651.292079
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o
+x/Users/peter/bin/System/ramDiskAccelerator/Utilities.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/peter/bin/System/ramDiskAccelerator/Utilities.m6265bc1a3105b941^b8ea561b3105b941^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Utilities.m0000000000000000^2670"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o Utilities.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.dia -c /Users/peter/bin/System/ramDiskAccelerator/Utilities.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/Utilities.o36"EE37E206-4B1A-41B8-A2A3-74E18C870FC9-
+
+CCompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o /Users/peter/bin/System/ramDiskAccelerator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419770649.394793
+e419770650.726009
+r1
+xCompileC
+xbuild/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o
+x/Users/peter/bin/System/ramDiskAccelerator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/peter/bin/System/ramDiskAccelerator/main.m833265193105b941^0edcb91a3105b941^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/peter/bin/System/ramDiskAccelerator/main.m0000000000000000^2640"CompileC build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/ramDiskAccelerator    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/RamDiskAccelerator.hmap -I/Users/peter/bin/System/ramDiskAccelerator/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources/i386 -I/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/DerivedSources -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -MMD -MT dependencies -MF /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.dia -c /Users/peter/bin/System/ramDiskAccelerator/main.m -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/main.o36"09783356-26C9-49B2-B0B5-B6861410DA4C-
+
+CCompileXIB /Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib
+s419770644.207286
+e419770649.386671
+r1
+xCompileXIB
+x/Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib
+o2014-04-21 16:27:29.274 ibtoold[40376:707] invalid CoreGraphics connection
+o2014-04-21 16:27:29.275 ibtoold[40376:707] invalid pixel format
+o2014-04-21 16:27:29.291 ibtoold[40376:707] invalid context
+o/* com.apple.ibtool.document.warnings */
+o/Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib:21: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib492c35143105b941^a8fd62193105b941^-235"2014-04-21 16:27:29.274 ibtoold[40376:707] invalid CoreGraphics connection2014-04-21 16:27:29.275 ibtoold[40376:707] invalid pixel format2014-04-21 16:27:29.291 ibtoold[40376:707] invalid context/* com.apple.ibtool.document.warnings */1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar419770649#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@85"file://localhost/Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib0000000000000000^20#18446744073709551615#20#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@85"file://localhost/Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib0000000000000000^615"CompileXIB English.lproj/MainMenu.xib    cd /Users/peter/bin/System/ramDiskAccelerator    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/MainMenu.nib /Users/peter/bin/System/ramDiskAccelerator/English.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"26FE3D99-81D9-4D26-869E-4B0A5506781D-
+
+CCopyStringsFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s419770644.134750
+e419770644.205926
+r1
+xCopyStringsFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsc09722143105b941^02b934143105b941^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/peter/bin/System/ramDiskAccelerator/English.lproj/InfoPlist.strings0000000000000000^421"CopyStringsFile build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"8563347D-F9F8-4204-8749-6CFEECC49381-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/PlayOff.tif Artwork/PlayOff.tif
+s419770644.152012
+e419770644.268621
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/PlayOff.tif
+xArtwork/PlayOff.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy Artwork/PlayOff.tifcff826143105b941^b5c644143105b941^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/PlayOff.tif0000000000000000^299"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/PlayOff.tif Artwork/PlayOff.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/PlayOff.tif36"FE0AA7D5-F5D8-4919-A8B4-79A1DB78E34C-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/QuestionMark.tiff Artwork/QuestionMark.tiff
+s419770644.150694
+e419770644.207312
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/QuestionMark.tiff
+xArtwork/QuestionMark.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy Artwork/QuestionMark.tiff8fa626143105b941^941335143105b941^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/QuestionMark.tiff0000000000000000^317"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/QuestionMark.tiff Artwork/QuestionMark.tiff    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/QuestionMark.tiff36"165C649A-A72A-4E43-AEA7-E65139017140-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateLeft.tif Artwork/RotateLeft.tif
+s419770644.134727
+e419770644.150786
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateLeft.tif
+xArtwork/RotateLeft.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy Artwork/RotateLeft.tif8a9422143105b941^2c9a26143105b941^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/RotateLeft.tif0000000000000000^308"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateLeft.tif Artwork/RotateLeft.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/RotateLeft.tif36"D1D66493-61F0-4E33-91D1-682DDC3FA72A-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateRight.tif Artwork/RotateRight.tif
+s419770644.134772
+e419770644.151082
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateRight.tif
+xArtwork/RotateRight.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Copy Artwork/RotateRight.tifea9522143105b941^10b026143105b941^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/RotateRight.tif0000000000000000^311"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/RotateRight.tif Artwork/RotateRight.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/RotateRight.tif36"74687C7E-374B-43FE-B352-9B67009B60F6-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/SizeToFit.tif Artwork/SizeToFit.tif
+s419770644.134779
+e419770644.151046
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/SizeToFit.tif
+xArtwork/SizeToFit.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Copy Artwork/SizeToFit.tif5f9622143105b941^efab26143105b941^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/SizeToFit.tif0000000000000000^305"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/SizeToFit.tif Artwork/SizeToFit.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/SizeToFit.tif36"F5E5EAA1-CA5B-418B-8F10-A6B7896B0D86-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomActualSize.tif Artwork/ZoomActualSize.tif
+s419770644.134797
+e419770644.205929
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomActualSize.tif
+xArtwork/ZoomActualSize.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy Artwork/ZoomActualSize.tif859922143105b941^66bd34143105b941^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomActualSize.tif0000000000000000^320"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomActualSize.tif Artwork/ZoomActualSize.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/ZoomActualSize.tif36"96073BB1-6350-468C-B32B-FB7746D4CE43-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomIn.tif Artwork/ZoomIn.tif
+s419770644.134828
+e419770644.205995
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomIn.tif
+xArtwork/ZoomIn.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"Copy Artwork/ZoomIn.tif01a422143105b941^50c234143105b941^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomIn.tif0000000000000000^296"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomIn.tif Artwork/ZoomIn.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/ZoomIn.tif36"F5C3FBCC-1AED-49FE-A675-7149BDEA4D3F-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomOut.tif Artwork/ZoomOut.tif
+s419770644.134818
+e419770644.151107
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomOut.tif
+xArtwork/ZoomOut.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy Artwork/ZoomOut.tif789822143105b941^b7b426143105b941^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/ZoomOut.tif0000000000000000^299"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/ZoomOut.tif Artwork/ZoomOut.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/ZoomOut.tif36"4CA419B7-B7AA-4223-B714-07AA1D4D374D-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/camera.tiff Artwork/camera.tiff
+s419770644.134746
+e419770644.149234
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/camera.tiff
+xArtwork/camera.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Copy Artwork/camera.tiffff9422143105b941^ca3426143105b941^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/camera.tiff0000000000000000^299"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/camera.tiff Artwork/camera.tiff    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/camera.tiff36"A6FCF647-C882-4879-8F07-AFCDF288C5C8-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/metal_background.tif Artwork/metal_background.tif
+s419770644.152041
+e419770644.268934
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/metal_background.tif
+xArtwork/metal_background.tif
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy Artwork/metal_background.tiff4fb26143105b941^cbd844143105b941^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/metal_background.tif0000000000000000^326"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/metal_background.tif Artwork/metal_background.tif    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/metal_background.tif36"4EA1517E-6887-4B25-BF8A-DDF93E7FD3EF-
+
+CCopyTiffFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/pin.tiff Artwork/pin.tiff
+s419770644.152032
+e419770644.208440
+r1
+xCopyTiffFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/pin.tiff
+xArtwork/pin.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection21"Copy Artwork/pin.tiff33f926143105b941^535c35143105b941^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Artwork/pin.tiff0000000000000000^290"CopyTiffFile build/Debug/RamDiskAccelerator.app/Contents/Resources/pin.tiff Artwork/pin.tiff    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copyTiff --outdir /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources -- Artwork/pin.tiff36"ED595893-7D98-49B9-83CF-A931A6303516-
+
+CCpResource Artwork/glossy.png build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png
+s419770644.152017
+e419770644.207640
+r1
+xCpResource
+xArtwork/glossy.png
+xbuild/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png4df726143105b941^dc2d35143105b941^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png000000000080d041^416"CpResource Artwork/glossy.png build/Debug/RamDiskAccelerator.app/Contents/Resources/glossy.png    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/peter/bin/System/ramDiskAccelerator/Artwork/glossy.png /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources36"FAD920CD-4809-4D45-8453-CED6475BC7D3-
+
+CCpResource Icon.icns build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns
+s419770644.207248
+e419770644.269262
+r1
+xCpResource
+xIcon.icns
+xbuild/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns702735143105b941^b7f044143105b941^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns000000000080d041^397"CpResource Icon.icns build/Debug/RamDiskAccelerator.app/Contents/Resources/Icon.icns    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/peter/bin/System/ramDiskAccelerator/Icon.icns /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources36"5114EF15-9173-4848-BB4E-98132527F411-
+
+CCpResource ramDiskAcceleratorPNG.png build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png
+s419770644.207254
+e419770644.271180
+r1
+xCpResource
+xramDiskAcceleratorPNG.png
+xbuild/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png392835143105b941^5d6d45143105b941^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png000000000080d041^445"CpResource ramDiskAcceleratorPNG.png build/Debug/RamDiskAccelerator.app/Contents/Resources/ramDiskAcceleratorPNG.png    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/peter/bin/System/ramDiskAccelerator/ramDiskAcceleratorPNG.png /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Resources36"99FA0768-2EDF-4843-BE07-247B776AA539-
+
+CLd /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator normal i386
+s419770651.338390
+e419770652.406444
+r1
+xLd
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator78b3561b3105b941^880f681c3105b941^---0#0#0#--869"Ld build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator normal i386    cd /Users/peter/bin/System/ramDiskAccelerator    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/bin/System/ramDiskAccelerator/build/Debug -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -filelist /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Objects-normal/i386/RamDiskAccelerator.LinkFileList -mmacosx-version-min=10.6 -fobjc-link-runtime -framework Cocoa -framework Quartz -o /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/MacOS/RamDiskAccelerator36"AFCD669E-031B-40F6-9262-C8E70EEC5068-
+
+CPreprocess /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist Info.plist
+s419770643.871138
+e419770644.116770
+r1
+xPreprocess
+x/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Preprocess build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist Info.plist060fdf133105b941^4be51d143105b941^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/peter/bin/System/ramDiskAccelerator/Info.plist0000000000000000^478"Preprocess build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist Info.plist    cd /Users/peter/bin/System/ramDiskAccelerator    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -E -P -x c -Wno-trigraphs Info.plist -F/Users/peter/bin/System/ramDiskAccelerator/build/Debug -o /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist36"B4D40AD9-E548-4919-BC95-549A8B18D9BC-
+
+CProcessInfoPlistFile /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Info.plist /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist
+s419770644.123696
+e419770644.126878
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Info.plist
+x/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Process /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist5ebc1f143105b941^897b20143105b941^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist0000000000000000^616"ProcessInfoPlistFile build/Debug/RamDiskAccelerator.app/Contents/Info.plist build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist    cd /Users/peter/bin/System/ramDiskAccelerator    builtin-infoPlistUtility /Users/peter/bin/System/ramDiskAccelerator/build/ramDiskAccelerator.build/Debug/ramDiskAccelerator.build/Preprocessed-Info.plist -genpkginfo /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app/Contents/Info.plist36"9712BF91-B7C0-4131-8F86-BAE3B760C1C6-
+
+CTouch /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app
+s419770652.414781
+e419770652.504845
+r1
+xTouch
+x/Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app793f6a1c3105b941^d53e811c3105b941^---0#0#0#--191"Touch build/Debug/RamDiskAccelerator.app    cd /Users/peter/bin/System/ramDiskAccelerator    /usr/bin/touch -c /Users/peter/bin/System/ramDiskAccelerator/build/Debug/RamDiskAccelerator.app36"0E1C15AD-78BF-488C-B73D-64828C905DB7-
+
