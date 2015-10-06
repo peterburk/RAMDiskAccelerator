@@ -24,5 +24,5 @@ System requirements
 
 For developers, you can also download the source code here.
 
-https://raw.githubusercontent.com/peterburk/RAMDiskAccelerator/master/RAMDisk%20Accelerator%20Source.zip
+https://raw.githubusercontent.com/peterburk/RAMDiskAccelerator/master/Source.zip
 
