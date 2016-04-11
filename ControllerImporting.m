@@ -72,7 +72,7 @@
         [[image TIFFRepresentation] writeToFile:outputPath atomically:YES];
          
         //add it to our datasource
-        [self addImageWithPath:outputPath];
+        [self addFileWithPath:outputPath];
 
         //reflect changes
         [imageBrowser reloadData];
