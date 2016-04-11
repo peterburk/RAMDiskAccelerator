@@ -96,7 +96,7 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
             CGImageDestinationFinalize(dest);
             CFRelease(dest);
             
-            [self addImageWithPath: path];
+            [self addFileWithPath: path];
             [imageBrowser reloadData];
             [imageBrowser setSelectionIndexes: [NSIndexSet indexSetWithIndex: [images count]-1] byExtendingSelection:NO];
         }

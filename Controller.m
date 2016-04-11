@@ -196,14 +196,15 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
             [self backupFile:thisFilePath];
             
             // Debug prompt
-//            // A shell script wrapped in AppleScript wrapped in Cocoa. Nasty, but cleaner than NSTask.
-//            NSString *dialogScript = [NSString stringWithFormat:@"tell application \"Finder\" to display dialog \"%@\"", thisFilePath];
-//            NSAppleScript *dialogScriptAS = [[NSAppleScript alloc] initWithSource: dialogScript];
-//            NSAppleEventDescriptor* returnValue = [dialogScriptAS executeAndReturnError:nil];
-//            
-//            // Get the returned value as a string
-//            NSString* returnText = [returnValue stringValue];
-
+#ifdef DEBUG
+            // A shell script wrapped in AppleScript wrapped in Cocoa. Nasty, but cleaner than NSTask.
+            NSString *dialogScript = [NSString stringWithFormat:@"tell application \"Finder\" to display dialog \"%@\"", thisFilePath];
+            NSAppleScript *dialogScriptAS = [[NSAppleScript alloc] initWithSource: dialogScript];
+            NSAppleEventDescriptor* returnValue = [dialogScriptAS executeAndReturnError:nil];
+            
+            // Get the returned value as a string
+            NSString* returnText = [returnValue stringValue];
+#endif
         } // end for each file
         
     } // end if there are files

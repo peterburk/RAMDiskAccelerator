@@ -57,8 +57,8 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
 
 @interface Controller : NSWindowController 
 {
-    IBOutlet IKImageBrowserView * imageBrowser;    
-    IBOutlet IKImageView * imageView;
+    IBOutlet IKImageBrowserView *imageBrowser;    
+    IBOutlet IKImageView *imageView;
     
     IBOutlet NSTextField *filePathTextField;
     IBOutlet NSTextField *ramDiskNameTextField;
@@ -70,12 +70,12 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
     NSMutableArray *images;
 	
 	//for search: filtered items are stored in this array (and initial indexes are stored in filteredOutIndexes)
-    NSMutableArray *filteredOutImages;
-	NSMutableIndexSet *filteredOutIndexes;
+    NSMutableArray    *filteredOutImages;
+	 NSMutableIndexSet *filteredOutIndexes;
     
     // saving related
-    NSURL *         selectedImageURL;
-    IKSaveOptions * saveOptions;
+    NSURL         *selectedImageURL;
+    IKSaveOptions *saveOptions;
     
 }
 
@@ -84,9 +84,9 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
 // actions are implemented in categories - listed here to make InterfaceBuilder happy
 
 - (IBAction) zoomSliderDidChange:(id)sender;
-- (IBAction) addImageButtonClicked:(id) sender;
+- (IBAction) addFileButtonClicked:(id) sender;
 - (IBAction) searchFieldChanged:(id) sender;
-- (IBAction)newRamDiskButtonClicked:(id)sender;
+- (IBAction) newRamDiskButtonClicked:(id)sender;
 
 - (IBAction) importImage:(id) sender;
 #endif

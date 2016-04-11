@@ -72,7 +72,7 @@ static NSArray *openFiles()
     panel = [NSOpenPanel openPanel];        
     [panel setFloatingPanel:YES];
     [panel setCanChooseDirectories:YES];
-    [panel setCanChooseFiles:YES];
+    [panel setAllowsMultipleSelection:YES];
 	int i = [panel runModalForTypes:nil];
 	if(i == NSOKButton){
 		return [panel filenames];
@@ -142,7 +142,7 @@ static NSArray *openFiles()
  code that parse a repository and add all entries to our datasource array,
 */
 
-- (void) addImageWithPath:(NSString *) path
+- (void) addFileWithPath:(NSString *) path
 {   
     [self willChangeValueForKey: @"totalNumberOfItems"];
     MyImageObject *item;
@@ -186,7 +186,7 @@ static NSArray *openFiles()
     [self didChangeValueForKey: @"totalNumberOfItems"];
 }
 
-- (void) addImagesFromDirectory:(NSString *) path
+- (void) addFilesFromDirectory:(NSString *) path
 {
     int i, n;
     BOOL dir;
@@ -199,11 +199,11 @@ static NSArray *openFiles()
         n = [content count];
         
         for(i=0; i<n; i++)
-			[self addImageWithPath:[path stringByAppendingPathComponent:[content objectAtIndex:i]]];
+			[self addFileWithPath:[path stringByAppendingPathComponent:[content objectAtIndex:i]]];
     }
     else
     {
-        [self addImageWithPath:path];
+        [self addFileWithPath:path];
 	}
     
 	[imageBrowser reloadData];
@@ -221,8 +221,8 @@ static NSArray *openFiles()
     images = [[NSMutableArray alloc] init];
     
 	//-- add two directory to the datasource at launch 
-//	[self addImagesFromDirectory:@"/Library/Desktop Pictures/Nature/"];
-//	[self addImagesFromDirectory:@"/Library/Desktop Pictures/"];
+//	[self addFilesFromDirectory:@"/Library/Desktop Pictures/Nature/"];
+//	[self addFilesFromDirectory:@"/Library/Desktop Pictures/"];
     
 	//-- initial coordinate set in IB is wrong. reset it to [0;0]
 	[imageBrowser setFrameOrigin:NSZeroPoint];
@@ -263,7 +263,7 @@ static NSArray *openFiles()
 #pragma mark actions
 
 /* "add" button was clicked */
-- (IBAction) addImageButtonClicked:(id) sender
+- (IBAction) addFileButtonClicked:(id) sender
 {   
     NSArray *path = openFiles();
     
@@ -276,7 +276,7 @@ static NSArray *openFiles()
 	
 	n = [path count];
 	for(i=0; i<n; i++)
-		[self addImagesFromDirectory:[path objectAtIndex:i]];
+		[self addFilesFromDirectory:[path objectAtIndex:i]];
 }
 
 - (IBAction) zoomSliderDidChange:(id)sender

@@ -65,6 +65,6 @@ Copyright © 2007-2009 Apple Inc., All Rights Reserved
 @interface Controller(Browsing)
 
 - (void)setupBrowsing;
-- (void) addImageWithPath:(NSString *) path;
+- (void) addFileWithPath:(NSString *) path;
 
 @end
